@@ -82,26 +82,29 @@
 										</div>
 										<div class="field">
 											<label for="message">Message</label>
-											<div class="dropdown">
-												<span>Mouse over me</span>
-												<div class="dropdown-content">
-												<p>Hello World!</p>
-												</div>
-											  </div>
 											<textarea name="message" id="message" rows="4"></textarea>
 										</div>
-									</div>
+
+										<!-- date time picker -->
+
+									
+										<form action="/action_page.php">
+										<label for="birthdaytime">Birthday (date and time):</label>
+										<input type="datetime-local" id="birthdaytime" name="birthdaytime">
+										<input type="submit">
+										</form>
+
+										<p><strong>Note:</strong> type="datetime-local" is not supported in Internet Explorer 11 or prior Safari 14.1.</p>
+
+
+
+									<!--</div>
 									<ul class="actions">
 										<li><input type="submit" value="Send Message" class="primary" /></li>
 										<li><input type="reset" value="Reset" /></li>
-									</ul>
+									</ul>-->
 								</form>
-								<ul class="icons">
-									<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
+								
 							</article>
 
 						<!-- Elements -->
@@ -350,6 +353,14 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 				<!-- Footer -->
 					<footer id="footer">
+
+<!-- moved from contact page on template -->
+						<ul class="icons"> 
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://en-gb.facebook.com/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
 						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
